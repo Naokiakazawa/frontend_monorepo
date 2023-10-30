@@ -37,6 +37,7 @@ module.exports = {
   ignorePatterns: ["node_modules/", "dist/"],
   // add rules configurations here
   rules: {
+    "import/no-extraneous-dependencies": "error",
     "import/no-default-export": "off",
   },
 };
